@@ -1,0 +1,14 @@
+Ubuntu Commands:
+    pwd - print work directory.
+    ls - print list of directory.
+    cd - change directory.
+    cd .. - change directory one level up / change directory to previous.
+    cd ~ - change directory to home.
+    cp - copy Commands.
+    mv - move or rename files. 
+    rm - remove files or directory.
+    touch - create a new empty file.
+    mkdir - make directory/folder.
+    rmdir - remove empty directory.
+    chmod - change file permission mode.
+    clear - clear terminal screen.
