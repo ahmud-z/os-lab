@@ -19,3 +19,13 @@ Commands for Vim Editor:
 
     :wq -> save & exit
         ex: esc then :wq
+
+delete entire line -> dd
+delete single char -> x
+undo -> u
+:set number
+
+move up by press -> k
+move down by press -> j
+move left by press -> h
+move right by press -> l
