@@ -13,6 +13,7 @@
     - nl -s '. ' -w 10 fileName.txt
 - word count of a file
     - wc fileName.txt
-- cut line by a particular word
-    - cut -b 1 -d ' ' fileName.txt
-
+- search and replace word
+    - sed 's/searchWord/replaceWord/g' fileName.txt
+- search a particular word
+    - egrep 'searchWord' fileName.txt
