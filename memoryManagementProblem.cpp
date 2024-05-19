@@ -29,23 +29,17 @@ int main()
     }
 
 
-    int internalFragmentations[noOfBlock] = {0};
-    int isAllocated[noOfBlock] = {0};
-
     for(int i = 0; i<noOfBlock; i++)
     {
         if(processes[i] <= blocks[i])
         {
-            internalFragmentations[i] = blocks[i]-processes[i];
-            isAllocated[i] = 1;
+            cout<<"Process"<<i+1<<" -> "<<processes[i]<<" -> "<<"Blocks"<<i+1<<" -> "<< " YES "<<" -> "<<blocks[i]-processes[i]<<endl;
+        }
+        else
+        {
+            cout<<"Process"<<i+1<<" -> "<<processes[i]<<" -> "<<"Blocks"<<i+1<<" -> "<< " NO "<<" -> "<<" -- "<<endl;
         }
     }
-
-    cout<<endl;
-    for(int i = 0; i<noOfBlock; i++){
-        cout<<"Process"<<i+1<<" -> "<<processes[i]<<" -> "<<"Blocks"<<i+1<<" -> "<<isAllocated[i]<<" -> "<<internalFragmentations[i]<<endl;
-    }
-
 
 
     return 0;
